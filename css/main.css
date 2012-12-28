@@ -21,6 +21,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    width: 960px;
+    margin: auto;
 }
 
 /*
@@ -58,6 +60,8 @@ hr {
 
 img {
     vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*
