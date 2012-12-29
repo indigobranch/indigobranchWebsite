@@ -23,6 +23,7 @@ body {
     line-height: 1.4;
     width: 960px;
     margin: auto;
+    padding-left: 2px;
 }
 
 /*
@@ -89,7 +90,7 @@ textarea {
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    /*color: #000;*/
     padding: 0.2em 0;
 }
 
@@ -97,7 +98,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    /*background-color: #000000;*/
+}
 
+h1 {
+    margin-top: 8px;
+}
+
+.menu {
+    position: absolute;
+    font-family: Open Sans, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    width: 960px;
+    /*background-color: gray;*/
+    vertical-align: middle;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
+.menu li{
+    display:inline;
+    float: left;
+    margin: 0px auto;
+    width: 192px;
+    text-align: center;
+    /*background-color: #dc143c;*/
+    padding: 0px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(200, 200, 255)
+}
+
+.menu a:hover{
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+}
+
+.menu div{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.imageHeader {
+    /*position: absolute;*/
+}
 
 
 
